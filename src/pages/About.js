@@ -171,7 +171,7 @@ const About = () => {
             </div>
 
             <div style={{
-              background: '#f8f8f8',
+              background: '#ffffff',
               border: '1px solid #e5e5e5',
               borderRadius: '20px',
               padding: '40px',
@@ -327,7 +327,7 @@ const About = () => {
           }}>
             {skills.map((skill, index) => (
               <div key={skill.name} style={{
-                background: '#f8f8f8',
+                background: '#ffffff',
                 borderRadius: '15px',
                 padding: '30px',
                 boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
@@ -413,7 +413,7 @@ const About = () => {
           }}>
             {interests.map((interest, index) => (
               <div key={interest.title} style={{
-                background: '#f8f8f8',
+                background: '#ffffff',
                 borderRadius: '20px',
                 padding: '40px 30px',
                 textAlign: 'center',
