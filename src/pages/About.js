@@ -31,15 +31,15 @@ const About = () => {
   ];
 
   return (
-    <div style={{ minHeight: '100vh', background: '#000000' }}>
+    <div style={{ minHeight: '100vh', background: '#ffffff' }}>
       {/* Top Navigation Bar */}
       <nav style={{
         position: 'fixed',
         top: 0,
         left: 0,
         right: 0,
-        background: 'rgba(0, 0, 0, 0.95)',
-        borderBottom: '1px solid #333',
+        background: 'rgba(255, 255, 255, 0.95)',
+        borderBottom: '1px solid #e5e5e5',
         zIndex: 1000,
         backdropFilter: 'blur(10px)'
       }}>
@@ -58,8 +58,8 @@ const About = () => {
               onClick={() => setMenuOpen(!menuOpen)}
               style={{
                 background: 'transparent',
-                border: '2px solid #ffffff',
-                color: '#ffffff',
+                border: '2px solid #000000',
+                color: '#000000',
                 padding: '10px 24px',
                 borderRadius: '25px',
                 fontSize: '16px',
@@ -69,12 +69,12 @@ const About = () => {
                 whiteSpace: 'nowrap'
               }}
               onMouseEnter={(e) => {
-                e.target.style.background = '#ffffff';
-                e.target.style.color = '#000';
+                e.target.style.background = '#000000';
+                e.target.style.color = '#ffffff';
               }}
               onMouseLeave={(e) => {
                 e.target.style.background = 'transparent';
-                e.target.style.color = '#ffffff';
+                e.target.style.color = '#000000';
               }}
             >
               Menu {menuOpen ? '▲' : '▼'}
@@ -86,12 +86,12 @@ const About = () => {
                 position: 'absolute',
                 top: '60px',
                 right: 0,
-                background: 'rgba(0, 0, 0, 0.98)',
-                border: '1px solid #333',
+                background: 'rgba(255, 255, 255, 0.98)',
+                border: '1px solid #e5e5e5',
                 borderRadius: '12px',
                 padding: '12px',
                 minWidth: '200px',
-                boxShadow: '0 8px 32px rgba(255, 255, 255, 0.1)',
+                boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)',
                 backdropFilter: 'blur(10px)'
               }}>
                 {mainSections.map((section) => (
@@ -100,7 +100,7 @@ const About = () => {
                     href={section.link}
                     style={{
                       display: 'block',
-                      color: '#ffffff',
+                      color: '#000000',
                       textDecoration: 'none',
                       padding: '12px 16px',
                       borderRadius: '8px',
@@ -108,7 +108,7 @@ const About = () => {
                       fontSize: '15px'
                     }}
                     onMouseEnter={(e) => {
-                      e.target.style.background = 'rgba(255, 255, 255, 0.1)';
+                      e.target.style.background = 'rgba(0, 0, 0, 0.05)';
                     }}
                     onMouseLeave={(e) => {
                       e.target.style.background = 'transparent';
@@ -127,7 +127,7 @@ const About = () => {
       <section style={{
         paddingTop: '140px',
         paddingBottom: '100px',
-        background: '#000000'
+        background: '#ffffff'
       }}>
         <div style={{
           maxWidth: '1200px',
@@ -144,7 +144,7 @@ const About = () => {
               <h2 style={{
                 fontSize: '2.5rem',
                 fontWeight: 'bold',
-                color: '#ffffff',
+                color: '#000000',
                 marginBottom: '2rem'
               }}>
                 My Story
@@ -152,7 +152,7 @@ const About = () => {
               <div style={{
                 fontSize: '1.1rem',
                 lineHeight: 1.8,
-                color: '#999'
+                color: '#666'
               }}>
                 <p style={{ marginBottom: '1.5rem' }}>
                   I'm a curious developer who fell in love with coding during university.
@@ -171,23 +171,23 @@ const About = () => {
             </div>
 
             <div style={{
-              background: '#111',
-              border: '1px solid #333',
+              background: '#f8f8f8',
+              border: '1px solid #e5e5e5',
               borderRadius: '20px',
               padding: '40px',
               textAlign: 'center',
-              boxShadow: '0 10px 40px rgba(255,255,255,0.05)'
+              boxShadow: '0 10px 40px rgba(0,0,0,0.05)'
             }}>
               <h3 style={{
                 fontSize: '2rem',
                 fontWeight: 'bold',
                 marginBottom: '10px',
-                color: '#ffffff'
+                color: '#000000'
               }}>
                 Your Name
               </h3>
               <p style={{
-                color: '#999',
+                color: '#666',
                 marginBottom: '30px'
               }}>
                 Full-Stack Developer & Life Enthusiast
@@ -199,81 +199,85 @@ const About = () => {
                 gap: '20px'
               }}>
                 <div style={{
-                  background: '#1a1a1a',
+                  background: '#ffffff',
                   padding: '20px',
-                  borderRadius: '12px'
+                  borderRadius: '12px',
+                  border: '1px solid #e5e5e5'
                 }}>
                   <div style={{
                     fontSize: '2rem',
                     fontWeight: 'bold',
                     marginBottom: '5px',
-                    color: '#ffffff'
+                    color: '#000000'
                   }}>
                     2+
                   </div>
                   <div style={{
                     fontSize: '0.9rem',
-                    color: '#666'
+                    color: '#999'
                   }}>
                     Years Experience
                   </div>
                 </div>
                 <div style={{
-                  background: '#1a1a1a',
+                  background: '#ffffff',
                   padding: '20px',
-                  borderRadius: '12px'
+                  borderRadius: '12px',
+                  border: '1px solid #e5e5e5'
                 }}>
                   <div style={{
                     fontSize: '2rem',
                     fontWeight: 'bold',
                     marginBottom: '5px',
-                    color: '#ffffff'
+                    color: '#000000'
                   }}>
                     10+
                   </div>
                   <div style={{
                     fontSize: '0.9rem',
-                    color: '#666'
+                    color: '#999'
                   }}>
                     Projects
                   </div>
                 </div>
                 <div style={{
-                  background: '#1a1a1a',
+                  background: '#ffffff',
                   padding: '20px',
-                  borderRadius: '12px'
+                  borderRadius: '12px',
+                  border: '1px solid #e5e5e5'
                 }}>
                   <div style={{
                     fontSize: '2rem',
                     fontWeight: 'bold',
                     marginBottom: '5px',
-                    color: '#ffffff'
+                    color: '#000000'
                   }}>
                     5+
                   </div>
                   <div style={{
                     fontSize: '0.9rem',
-                    color: '#666'
+                    color: '#999'
                   }}>
                     Skills
                   </div>
                 </div>
                 <div style={{
-                  background: '#1a1a1a',
+                  background: '#ffffff',
                   padding: '20px',
-                  borderRadius: '12px'
+                  borderRadius: '12px',
+                  border: '1px solid #e5e5e5'
                 }}>
                   <div style={{
                     fontSize: '2rem',
                     fontWeight: 'bold',
                     marginBottom: '5px',
-                    color: '#ffffff'
+                    color: '#000000'
                   }}>
                     ∞
                   </div>
                   <div style={{
                     fontSize: '0.9rem',
-                    color: '#666'
+                    color: '#999'
                   }}>
                     Passion
                   </div>
@@ -287,7 +291,7 @@ const About = () => {
       {/* Skills Section */}
       <section style={{
         padding: '100px 0',
-        background: '#000000'
+        background: '#ffffff'
       }}>
         <div style={{
           maxWidth: '1200px',
@@ -301,14 +305,14 @@ const About = () => {
             <h2 style={{
               fontSize: '3rem',
               fontWeight: 'bold',
-              color: '#ffffff',
+              color: '#000000',
               marginBottom: '1rem'
             }}>
               Technical Skills
             </h2>
             <p style={{
               fontSize: '1.2rem',
-              color: '#999',
+              color: '#666',
               maxWidth: '600px',
               margin: '0 auto'
             }}>
@@ -323,11 +327,11 @@ const About = () => {
           }}>
             {skills.map((skill, index) => (
               <div key={skill.name} style={{
-                background: '#111',
+                background: '#f8f8f8',
                 borderRadius: '15px',
                 padding: '30px',
-                boxShadow: '0 10px 40px rgba(255,255,255,0.05)',
-                border: '1px solid #333'
+                boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
+                border: '1px solid #e5e5e5'
               }}>
                 <div style={{
                   display: 'flex',
@@ -337,13 +341,13 @@ const About = () => {
                 }}>
                   <span style={{
                     fontWeight: '600',
-                    color: '#ffffff',
+                    color: '#000000',
                     fontSize: '1.1rem'
                   }}>
                     {skill.name}
                   </span>
                   <span style={{
-                    color: '#999',
+                    color: '#666',
                     fontSize: '0.9rem'
                   }}>
                     {skill.level}%
@@ -352,14 +356,14 @@ const About = () => {
                 <div style={{
                   width: '100%',
                   height: '8px',
-                  background: '#1a1a1a',
+                  background: '#e5e5e5',
                   borderRadius: '4px',
                   overflow: 'hidden'
                 }}>
                   <div style={{
                     width: `${skill.level}%`,
                     height: '100%',
-                    background: '#ffffff',
+                    background: '#000000',
                     borderRadius: '4px',
                     transition: 'width 1s ease-in-out'
                   }} />
@@ -373,7 +377,7 @@ const About = () => {
       {/* Interests Section */}
       <section style={{
         padding: '100px 0 100px 0',
-        background: '#000000'
+        background: '#ffffff'
       }}>
         <div style={{
           maxWidth: '1200px',
@@ -387,14 +391,14 @@ const About = () => {
             <h2 style={{
               fontSize: '3rem',
               fontWeight: 'bold',
-              color: '#ffffff',
+              color: '#000000',
               marginBottom: '1rem'
             }}>
               Interests & Hobbies
             </h2>
             <p style={{
               fontSize: '1.2rem',
-              color: '#999',
+              color: '#666',
               maxWidth: '600px',
               margin: '0 auto'
             }}>
@@ -409,34 +413,34 @@ const About = () => {
           }}>
             {interests.map((interest, index) => (
               <div key={interest.title} style={{
-                background: '#111',
+                background: '#f8f8f8',
                 borderRadius: '20px',
                 padding: '40px 30px',
                 textAlign: 'center',
-                boxShadow: '0 10px 40px rgba(255,255,255,0.05)',
-                border: '1px solid #333',
+                boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
+                border: '1px solid #e5e5e5',
                 transition: 'all 0.3s ease'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-10px)';
-                e.currentTarget.style.boxShadow = '0 20px 60px rgba(255,255,255,0.1)';
-                e.currentTarget.style.borderColor = '#666';
+                e.currentTarget.style.boxShadow = '0 20px 60px rgba(0,0,0,0.1)';
+                e.currentTarget.style.borderColor = '#ccc';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 10px 40px rgba(255,255,255,0.05)';
-                e.currentTarget.style.borderColor = '#333';
+                e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)';
+                e.currentTarget.style.borderColor = '#e5e5e5';
               }}>
                 <h3 style={{
                   fontSize: '1.3rem',
                   fontWeight: 'bold',
-                  color: '#ffffff',
+                  color: '#000000',
                   marginBottom: '15px'
                 }}>
                   {interest.title}
                 </h3>
                 <p style={{
-                  color: '#999',
+                  color: '#666',
                   lineHeight: 1.6
                 }}>
                   {interest.description}
