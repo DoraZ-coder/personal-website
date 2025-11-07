@@ -313,7 +313,7 @@ const Home = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          background: '#f8f8f8',
+          background: '#ffffff',
           padding: '120px 20px'
         }}
       >
