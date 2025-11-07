@@ -353,17 +353,17 @@ const Projects = () => {
                 boxShadow: '0 4px 12px rgba(0, 0, 0, 0.08)',
                 background: '#000000'
               }}>
-                <video
-                  controls
+                <iframe
+                  src="https://drive.google.com/file/d/1UCChwu6iheKNKn_dqbrnZrufIlO4bvVd/preview"
                   style={{
                     width: '100%',
-                    height: 'auto',
+                    height: '600px',
+                    border: 'none',
                     display: 'block'
                   }}
-                >
-                  <source src="/images/project/demo.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                  allow="autoplay"
+                  title="Demo Video"
+                ></iframe>
               </div>
             </div>
           </div>
