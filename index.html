@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">MySpace</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#diary" class="nav-link">Diary</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#music" class="nav-link">Music</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sports" class="nav-link">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Hello, I am</span>
+                    <span class="title-name">Your Name</span>
+                </h1>
+                <p class="hero-subtitle">Passionate Developer & Creative Thinker</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Discover More</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I am a passionate developer with a love for creating innovative solutions. 
+                        My journey in technology started with curiosity and has evolved into a 
+                        deep appreciation for clean code and user-centered design.
+                    </p>
+                    <div class="skills">
+                        <h3>Skills & Interests</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Web Development</span>
+                            <span class="skill-tag">IoT Projects</span>
+                            <span class="skill-tag">Problem Solving</span>
+                            <span class="skill-tag">Creative Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Auto Watering Machine</h3>
+                    <p class="project-description">
+                        An innovative IoT solution that automatically waters plants based on soil moisture levels. 
+                        Features include mobile app control, weather integration, and customizable watering schedules.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">IoT</span>
+                        <span class="tech-tag">Mobile App</span>
+                        <span class="tech-tag">Sensors</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-outline">View Project</a>
+                        <a href="#" class="btn btn-outline">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Diary Section -->
+    <section id="diary" class="section">
+        <div class="container">
+            <h2 class="section-title">Internship Diary</h2>
+            <div class="diary-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Week 1: Getting Started</h3>
+                        <p class="timeline-date">January 2024</p>
+                        <p class="timeline-description">
+                            First week was all about understanding the company culture and getting familiar 
+                            with the development environment. Met amazing mentors and started working on 
+                            small bug fixes.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Week 2-3: Deep Dive</h3>
+                        <p class="timeline-date">January 2024</p>
+                        <p class="timeline-description">
+                            Started working on more complex features. Learned about microservices 
+                            architecture and got hands-on experience with cloud deployment.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Week 4: Project Launch</h3>
+                        <p class="timeline-date">February 2024</p>
+                        <p class="timeline-description">
+                            Successfully launched my first major feature! The team was impressed 
+                            with the performance improvements and clean code implementation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">The World in My Ear</h2>
+            <div class="music-content">
+                <div class="music-player">
+                    <div class="player-cover">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="player-info">
+                        <h3>Currently Playing</h3>
+                        <p class="song-title">Your Favorite Song</p>
+                        <p class="artist-name">Artist Name</p>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <h3>My Playlist</h3>
+                    <div class="playlist-items">
+                        <div class="playlist-item">
+                            <i class="fas fa-play"></i>
+                            <span>Song 1 - Artist 1</span>
+                        </div>
+                        <div class="playlist-item">
+                            <i class="fas fa-play"></i>
+                            <span>Song 2 - Artist 2</span>
+                        </div>
+                        <div class="playlist-item">
+                            <i class="fas fa-play"></i>
+                            <span>Song 3 - Artist 3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sports Section -->
+    <section id="sports" class="section">
+        <div class="container">
+            <h2 class="section-title">Sports & Activities</h2>
+            <div class="sports-grid">
+                <div class="sport-card">
+                    <div class="sport-icon">
+                        <i class="fas fa-horse"></i>
+                    </div>
+                    <h3>Equestrian</h3>
+                    <p>Passionate about horseback riding and equestrian sports</p>
+                </div>
+                <div class="sport-card">
+                    <div class="sport-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3>Soccer</h3>
+                    <p>Team player with love for the beautiful game</p>
+                </div>
+                <div class="sport-card">
+                    <div class="sport-icon">
+                        <i class="fas fa-volleyball-ball"></i>
+                    </div>
+                    <h3>Volleyball</h3>
+                    <p>Enjoying the strategy and teamwork in volleyball</p>
+                </div>
+                <div class="sport-card">
+                    <div class="sport-icon">
+                        <i class="fas fa-basketball-ball"></i>
+                    </div>
+                    <h3>Basketball</h3>
+                    <p>Fast-paced action and precision shooting</p>
+                </div>
+                <div class="sport-card">
+                    <div class="sport-icon">
+                        <i class="fas fa-skating"></i>
+                    </div>
+                    <h3>Roller Skating</h3>
+                    <p>Freedom and flow on wheels</p>
+                </div>
+                <div class="sport-card">
+                    <div class="sport-icon">
+                        <i class="fas fa-skateboard"></i>
+                    </div>
+                    <h3>Skateboarding</h3>
+                    <p>Urban exploration and creative expression</p>
+                </div>
+                <div class="sport-card">
+                    <div class="sport-icon">
+                        <i class="fas fa-table-tennis"></i>
+                    </div>
+                    <h3>Ping Pong</h3>
+                    <p>Quick reflexes and strategic thinking</p>
+                </div>
+                <div class="sport-card">
+                    <div class="sport-icon">
+                        <i class="fas fa-skiing"></i>
+                    </div>
+                    <h3>Skiing</h3>
+                    <p>Mountain adventures and winter sports</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section id="gallery" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Photo Album</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let us Connect</h3>
+                    <p>I am always open to discussing new opportunities, creative projects, or just having a chat about technology and life.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>your.email@example.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Your City, Country</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
