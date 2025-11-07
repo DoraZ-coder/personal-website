@@ -7,12 +7,12 @@ const Home = () => {
   const [activeSection, setActiveSection] = useState('home');
 
   const sections = [
-    { id: 'home', name: 'Home', path: '/', color: '#000' },
-    { id: 'about', name: 'About Me', path: '#about', color: '#000' },
-    { id: 'projects', name: 'Projects', path: '/projects', color: '#000' },
-    { id: 'internship', name: 'Internship', path: '/internship', color: '#000' },
-    { id: 'music', name: 'Music', path: '/music', color: '#000' },
-    { id: 'contact', name: 'Contact', path: '/contact', color: '#000' }
+    { id: 'home', name: 'Home', path: '/', color: '#ffffff' },
+    { id: 'about', name: 'About Me', path: '#about', color: '#ffffff' },
+    { id: 'projects', name: 'Projects', path: '/projects', color: '#ffffff' },
+    { id: 'internship', name: 'Internship', path: '/internship', color: '#ffffff' },
+    { id: 'music', name: 'Music', path: '/music', color: '#ffffff' },
+    { id: 'contact', name: 'Contact', path: '/contact', color: '#ffffff' }
   ];
 
   // Scroll to section
@@ -72,7 +72,7 @@ const Home = () => {
           p.style.color = '#000';
           p.style.opacity = '1';
         } else {
-          p.style.color = 'rgba(0, 0, 0, 0.3)';
+          p.style.color = 'rgba(255, 255, 255, 0.3)';
           p.style.opacity = '0.5';
         }
       });
@@ -95,7 +95,7 @@ const Home = () => {
         overflowY: 'auto',
         overflowX: 'hidden',
         scrollBehavior: 'smooth',
-        background: '#ffffff',
+        background: '#000000',
       }}
     >
       {/* Top Navigation Bar */}
@@ -221,7 +221,7 @@ const Home = () => {
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          background: '#ffffff',
+          background: '#000000',
           paddingTop: '70px',
           position: 'relative'
         }}
@@ -234,7 +234,7 @@ const Home = () => {
           <h1 style={{
             fontSize: '72px',
             fontWeight: 'bold',
-            color: '#000',
+            color: '#ffffff',
             marginBottom: '20px',
             letterSpacing: '-2px',
             lineHeight: 1.1
@@ -243,7 +243,7 @@ const Home = () => {
           </h1>
           <p style={{
             fontSize: '24px',
-            color: '#666',
+            color: '#999',
             marginBottom: '60px',
             lineHeight: 1.6
           }}>
@@ -271,7 +271,7 @@ const Home = () => {
                 style={{
                   fontSize: '18px',
                   fontWeight: '600',
-                  color: '#000',
+                  color: '#ffffff',
                   cursor: 'pointer',
                   padding: '12px 0',
                   borderBottom: '2px solid transparent',
@@ -313,7 +313,7 @@ const Home = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          background: '#ffffff',
+          background: '#000000',
           padding: '120px 20px'
         }}
       >
@@ -324,7 +324,7 @@ const Home = () => {
           <h2 style={{
             fontSize: '48px',
             fontWeight: 'bold',
-            color: '#000',
+            color: '#ffffff',
             marginBottom: '80px',
             textAlign: 'center'
           }}>
@@ -339,7 +339,7 @@ const Home = () => {
             <p data-scroll-index="0" style={{
               marginBottom: '60px',
               transition: 'color 0.5s ease, opacity 0.5s ease',
-              color: 'rgba(0, 0, 0, 0.3)',
+              color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
               I am Tongzhou Zhang, born in Beijing, China, and now a Canadian high school student at Langley Fundamental Middle & Secondary School.
@@ -348,7 +348,7 @@ const Home = () => {
             <p data-scroll-index="1" style={{
               marginBottom: '60px',
               transition: 'color 0.5s ease, opacity 0.5s ease',
-              color: 'rgba(0, 0, 0, 0.3)',
+              color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
               I am the girl who once thought she would never have to code again but is now passionately obsessed with programming; the girl who was once afraid to speak her mind in a crowd but is now driven to make a tangible contribution to society; the girl whose mantra used to be "I can't do it," but who now lives by the creed: Self-motivated, Innovative, and Diligent.
@@ -357,7 +357,7 @@ const Home = () => {
             <p data-scroll-index="2" style={{
               marginBottom: '60px',
               transition: 'color 0.5s ease, opacity 0.5s ease',
-              color: 'rgba(0, 0, 0, 0.3)',
+              color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
               Looking back on my three years of high school, I am still amazed at how much the journey has held. I never imagined I could build an Arduino-based self-watering plant system from scratch, that I would secure an internship in a university research lab, or that I would develop, market, and launch a social app into the world.
@@ -366,7 +366,7 @@ const Home = () => {
             <p data-scroll-index="3" style={{
               marginBottom: '60px',
               transition: 'color 0.5s ease, opacity 0.5s ease',
-              color: 'rgba(0, 0, 0, 0.3)',
+              color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
               It reminds me of what Steve Jobs said in his Stanford speech: "Again, you can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future."
@@ -375,7 +375,7 @@ const Home = () => {
             <p data-scroll-index="4" style={{
               marginBottom: '60px',
               transition: 'color 0.5s ease, opacity 0.5s ease',
-              color: 'rgba(0, 0, 0, 0.3)',
+              color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
               He was so right. These wonderful things that have happened to me are no accident. Behind them lies a thirst for knowledge that pushed me to learn, the courage to constantly step outside my comfort zone, the unwavering support of my parents, and the dedication of every teacher who has ever guided me. All these moments, like pieces of a puzzle, have transformed every difficult challenge into a part of my achievements.
@@ -384,7 +384,7 @@ const Home = () => {
             <p data-scroll-index="5" style={{
               marginBottom: '60px',
               transition: 'color 0.5s ease, opacity 0.5s ease',
-              color: 'rgba(0, 0, 0, 0.3)',
+              color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
               Moving forward, I will continue to hold a deep respect and craving for knowledge, and I eagerly look forward to exploring the unknown in university.
@@ -393,7 +393,7 @@ const Home = () => {
             <p data-scroll-index="6" style={{
               marginBottom: '60px',
               transition: 'color 0.5s ease, opacity 0.5s ease',
-              color: 'rgba(0, 0, 0, 0.3)',
+              color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
               I built this website because I wanted to share my imperfect yet genuine journey with you—not just with a simple line about what I've done, but with the real story behind it.
@@ -402,7 +402,7 @@ const Home = () => {
             <p data-scroll-index="7" style={{
               marginBottom: '60px',
               transition: 'color 0.5s ease, opacity 0.5s ease',
-              color: 'rgba(0, 0, 0, 0.3)',
+              color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
               So, please, continue your exploration!
@@ -488,7 +488,7 @@ const Home = () => {
           <div style={{
             borderTop: '1px solid #333',
             paddingTop: '30px',
-            color: '#666',
+            color: '#999',
             fontSize: '14px'
           }}>
             © 2025 Tongzhou Zhang. All rights reserved.

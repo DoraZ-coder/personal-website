@@ -31,15 +31,15 @@ const About = () => {
   ];
 
   return (
-    <div style={{ minHeight: '100vh', background: '#ffffff' }}>
+    <div style={{ minHeight: '100vh', background: '#000000' }}>
       {/* Top Navigation Bar */}
       <nav style={{
         position: 'fixed',
         top: 0,
         left: 0,
         right: 0,
-        background: 'rgba(255, 255, 255, 0.95)',
-        borderBottom: '1px solid #e5e5e5',
+        background: 'rgba(0, 0, 0, 0.95)',
+        borderBottom: '1px solid #333',
         zIndex: 1000,
         backdropFilter: 'blur(10px)'
       }}>
@@ -58,8 +58,8 @@ const About = () => {
               onClick={() => setMenuOpen(!menuOpen)}
               style={{
                 background: 'transparent',
-                border: '2px solid #000000',
-                color: '#000000',
+                border: '2px solid #ffffff',
+                color: '#ffffff',
                 padding: '10px 24px',
                 borderRadius: '25px',
                 fontSize: '16px',
@@ -86,8 +86,8 @@ const About = () => {
                 position: 'absolute',
                 top: '60px',
                 right: 0,
-                background: 'rgba(255, 255, 255, 0.98)',
-                border: '1px solid #e5e5e5',
+                background: 'rgba(0, 0, 0, 0.98)',
+                border: '1px solid #333',
                 borderRadius: '12px',
                 padding: '12px',
                 minWidth: '200px',
@@ -100,7 +100,7 @@ const About = () => {
                     href={section.link}
                     style={{
                       display: 'block',
-                      color: '#000000',
+                      color: '#ffffff',
                       textDecoration: 'none',
                       padding: '12px 16px',
                       borderRadius: '8px',
@@ -127,7 +127,7 @@ const About = () => {
       <section style={{
         paddingTop: '140px',
         paddingBottom: '100px',
-        background: '#ffffff'
+        background: '#000000'
       }}>
         <div style={{
           maxWidth: '1200px',
@@ -144,7 +144,7 @@ const About = () => {
               <h2 style={{
                 fontSize: '2.5rem',
                 fontWeight: 'bold',
-                color: '#000000',
+                color: '#ffffff',
                 marginBottom: '2rem'
               }}>
                 My Story
@@ -152,7 +152,7 @@ const About = () => {
               <div style={{
                 fontSize: '1.1rem',
                 lineHeight: 1.8,
-                color: '#666'
+                color: '#999'
               }}>
                 <p style={{ marginBottom: '1.5rem' }}>
                   I'm a curious developer who fell in love with coding during university.
@@ -171,8 +171,8 @@ const About = () => {
             </div>
 
             <div style={{
-              background: '#ffffff',
-              border: '1px solid #e5e5e5',
+              background: '#000000',
+              border: '1px solid #333',
               borderRadius: '20px',
               padding: '40px',
               textAlign: 'center',
@@ -182,12 +182,12 @@ const About = () => {
                 fontSize: '2rem',
                 fontWeight: 'bold',
                 marginBottom: '10px',
-                color: '#000000'
+                color: '#ffffff'
               }}>
                 Your Name
               </h3>
               <p style={{
-                color: '#666',
+                color: '#999',
                 marginBottom: '30px'
               }}>
                 Full-Stack Developer & Life Enthusiast
@@ -199,16 +199,16 @@ const About = () => {
                 gap: '20px'
               }}>
                 <div style={{
-                  background: '#ffffff',
+                  background: '#000000',
                   padding: '20px',
                   borderRadius: '12px',
-                  border: '1px solid #e5e5e5'
+                  border: '1px solid #333'
                 }}>
                   <div style={{
                     fontSize: '2rem',
                     fontWeight: 'bold',
                     marginBottom: '5px',
-                    color: '#000000'
+                    color: '#ffffff'
                   }}>
                     2+
                   </div>
@@ -220,16 +220,16 @@ const About = () => {
                   </div>
                 </div>
                 <div style={{
-                  background: '#ffffff',
+                  background: '#000000',
                   padding: '20px',
                   borderRadius: '12px',
-                  border: '1px solid #e5e5e5'
+                  border: '1px solid #333'
                 }}>
                   <div style={{
                     fontSize: '2rem',
                     fontWeight: 'bold',
                     marginBottom: '5px',
-                    color: '#000000'
+                    color: '#ffffff'
                   }}>
                     10+
                   </div>
@@ -241,16 +241,16 @@ const About = () => {
                   </div>
                 </div>
                 <div style={{
-                  background: '#ffffff',
+                  background: '#000000',
                   padding: '20px',
                   borderRadius: '12px',
-                  border: '1px solid #e5e5e5'
+                  border: '1px solid #333'
                 }}>
                   <div style={{
                     fontSize: '2rem',
                     fontWeight: 'bold',
                     marginBottom: '5px',
-                    color: '#000000'
+                    color: '#ffffff'
                   }}>
                     5+
                   </div>
@@ -262,16 +262,16 @@ const About = () => {
                   </div>
                 </div>
                 <div style={{
-                  background: '#ffffff',
+                  background: '#000000',
                   padding: '20px',
                   borderRadius: '12px',
-                  border: '1px solid #e5e5e5'
+                  border: '1px solid #333'
                 }}>
                   <div style={{
                     fontSize: '2rem',
                     fontWeight: 'bold',
                     marginBottom: '5px',
-                    color: '#000000'
+                    color: '#ffffff'
                   }}>
                     ∞
                   </div>
@@ -291,7 +291,7 @@ const About = () => {
       {/* Skills Section */}
       <section style={{
         padding: '100px 0',
-        background: '#ffffff'
+        background: '#000000'
       }}>
         <div style={{
           maxWidth: '1200px',
@@ -305,14 +305,14 @@ const About = () => {
             <h2 style={{
               fontSize: '3rem',
               fontWeight: 'bold',
-              color: '#000000',
+              color: '#ffffff',
               marginBottom: '1rem'
             }}>
               Technical Skills
             </h2>
             <p style={{
               fontSize: '1.2rem',
-              color: '#666',
+              color: '#999',
               maxWidth: '600px',
               margin: '0 auto'
             }}>
@@ -327,11 +327,11 @@ const About = () => {
           }}>
             {skills.map((skill, index) => (
               <div key={skill.name} style={{
-                background: '#ffffff',
+                background: '#000000',
                 borderRadius: '15px',
                 padding: '30px',
                 boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
-                border: '1px solid #e5e5e5'
+                border: '1px solid #333'
               }}>
                 <div style={{
                   display: 'flex',
@@ -341,13 +341,13 @@ const About = () => {
                 }}>
                   <span style={{
                     fontWeight: '600',
-                    color: '#000000',
+                    color: '#ffffff',
                     fontSize: '1.1rem'
                   }}>
                     {skill.name}
                   </span>
                   <span style={{
-                    color: '#666',
+                    color: '#999',
                     fontSize: '0.9rem'
                   }}>
                     {skill.level}%
@@ -377,7 +377,7 @@ const About = () => {
       {/* Interests Section */}
       <section style={{
         padding: '100px 0 100px 0',
-        background: '#ffffff'
+        background: '#000000'
       }}>
         <div style={{
           maxWidth: '1200px',
@@ -391,14 +391,14 @@ const About = () => {
             <h2 style={{
               fontSize: '3rem',
               fontWeight: 'bold',
-              color: '#000000',
+              color: '#ffffff',
               marginBottom: '1rem'
             }}>
               Interests & Hobbies
             </h2>
             <p style={{
               fontSize: '1.2rem',
-              color: '#666',
+              color: '#999',
               maxWidth: '600px',
               margin: '0 auto'
             }}>
@@ -413,12 +413,12 @@ const About = () => {
           }}>
             {interests.map((interest, index) => (
               <div key={interest.title} style={{
-                background: '#ffffff',
+                background: '#000000',
                 borderRadius: '20px',
                 padding: '40px 30px',
                 textAlign: 'center',
                 boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
-                border: '1px solid #e5e5e5',
+                border: '1px solid #333',
                 transition: 'all 0.3s ease'
               }}
               onMouseEnter={(e) => {
@@ -434,13 +434,13 @@ const About = () => {
                 <h3 style={{
                   fontSize: '1.3rem',
                   fontWeight: 'bold',
-                  color: '#000000',
+                  color: '#ffffff',
                   marginBottom: '15px'
                 }}>
                   {interest.title}
                 </h3>
                 <p style={{
-                  color: '#666',
+                  color: '#999',
                   lineHeight: 1.6
                 }}>
                   {interest.description}

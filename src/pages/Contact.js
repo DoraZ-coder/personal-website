@@ -60,7 +60,7 @@ const Contact = () => {
   };
 
   return (
-    <div style={{ minHeight: '100vh', background: '#ffffff' }}>
+    <div style={{ minHeight: '100vh', background: '#000000' }}>
       {/* Top Navigation Bar - Menu Only */}
       <nav style={{
         position: 'fixed',
@@ -172,7 +172,7 @@ const Contact = () => {
         {/* Hero Section */}
         <section style={{
           padding: '100px 0 80px 0',
-          background: '#ffffff',
+          background: '#000000',
           textAlign: 'center',
           borderBottom: '1px solid #f0f0f0'
         }}>
@@ -184,7 +184,7 @@ const Contact = () => {
             <h1 style={{
               fontSize: '48px',
               fontWeight: 'bold',
-              color: '#000000',
+              color: '#ffffff',
               marginBottom: '20px',
               letterSpacing: '-1px'
             }}>
@@ -192,7 +192,7 @@ const Contact = () => {
             </h1>
             <p style={{
               fontSize: '18px',
-              color: '#666',
+              color: '#999',
               lineHeight: 1.6,
               maxWidth: '600px',
               margin: '0 auto'
@@ -205,7 +205,7 @@ const Contact = () => {
         {/* Contact Form Section */}
         <section style={{
           padding: '80px 0',
-          background: '#ffffff'
+          background: '#000000'
         }}>
           <div style={{
             maxWidth: '600px',
@@ -223,7 +223,7 @@ const Contact = () => {
                   display: 'block',
                   fontSize: '14px',
                   fontWeight: '600',
-                  color: '#000',
+                  color: '#ffffff',
                   marginBottom: '10px',
                   letterSpacing: '0.5px'
                 }}>
@@ -243,8 +243,8 @@ const Contact = () => {
                     fontSize: '16px',
                     transition: 'all 0.3s ease',
                     outline: 'none',
-                    background: '#ffffff',
-                    color: '#000'
+                    background: '#000000',
+                    color: '#ffffff'
                   }}
                   onFocus={(e) => {
                     e.target.style.borderColor = '#000';
@@ -262,7 +262,7 @@ const Contact = () => {
                   display: 'block',
                   fontSize: '14px',
                   fontWeight: '600',
-                  color: '#000',
+                  color: '#ffffff',
                   marginBottom: '10px',
                   letterSpacing: '0.5px'
                 }}>
@@ -282,8 +282,8 @@ const Contact = () => {
                     fontSize: '16px',
                     transition: 'all 0.3s ease',
                     outline: 'none',
-                    background: '#ffffff',
-                    color: '#000'
+                    background: '#000000',
+                    color: '#ffffff'
                   }}
                   onFocus={(e) => {
                     e.target.style.borderColor = '#000';
@@ -301,7 +301,7 @@ const Contact = () => {
                   display: 'block',
                   fontSize: '14px',
                   fontWeight: '600',
-                  color: '#000',
+                  color: '#ffffff',
                   marginBottom: '10px',
                   letterSpacing: '0.5px'
                 }}>
@@ -323,8 +323,8 @@ const Contact = () => {
                     outline: 'none',
                     resize: 'vertical',
                     fontFamily: 'inherit',
-                    background: '#ffffff',
-                    color: '#000',
+                    background: '#000000',
+                    color: '#ffffff',
                     lineHeight: '1.6'
                   }}
                   onFocus={(e) => {
@@ -387,7 +387,7 @@ const Contact = () => {
                 href="mailto:jojotongzhou@gmail.com"
                 style={{
                   fontSize: '18px',
-                  color: '#000',
+                  color: '#ffffff',
                   textDecoration: 'none',
                   fontWeight: '600',
                   transition: 'all 0.3s ease'

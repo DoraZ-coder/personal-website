@@ -12,7 +12,7 @@ const Photos = () => {
     { id: 'street', name: 'Street', color: '#f093fb' },
     { id: 'food', name: 'Food', color: '#fa709a' },
     { id: 'sports', name: 'Sports', color: '#764ba2' },
-    { id: 'daily', name: 'Daily', color: '#666' }
+    { id: 'daily', name: 'Daily', color: '#999' }
   ];
 
   const photos = [
@@ -304,7 +304,7 @@ const Photos = () => {
                       {photo.title}
                     </h3>
                     <p style={{
-                      color: '#666',
+                      color: '#999',
                       fontSize: '0.9rem',
                       marginBottom: '15px',
                       lineHeight: 1.5
@@ -317,7 +317,7 @@ const Photos = () => {
                       justifyContent: 'space-between',
                       alignItems: 'center',
                       fontSize: '0.8rem',
-                      color: '#666'
+                      color: '#999'
                     }}>
                       <span>📅 {photo.date}</span>
                       <span>📍 {photo.location}</span>
@@ -422,7 +422,7 @@ const Photos = () => {
                         </span>
                       </div>
                       <p style={{
-                        color: '#666',
+                        color: '#999',
                         marginBottom: '10px',
                         fontSize: '0.9rem'
                       }}>
@@ -432,7 +432,7 @@ const Photos = () => {
                         display: 'flex',
                         gap: '20px',
                         fontSize: '0.8rem',
-                        color: '#666'
+                        color: '#999'
                       }}>
                         <span>📅 {photo.date}</span>
                         <span>📍 {photo.location}</span>
@@ -473,7 +473,7 @@ const Photos = () => {
               <h3 style={{
                 fontSize: '1.5rem',
                 fontWeight: 'bold',
-                color: '#666',
+                color: '#999',
                 marginBottom: '10px'
               }}>
                 No photos found

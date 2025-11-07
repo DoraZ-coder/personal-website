@@ -236,7 +236,7 @@ const Internship = () => {
   };
 
   return (
-    <div style={{ minHeight: '100vh', background: '#ffffff' }}>
+    <div style={{ minHeight: '100vh', background: '#000000' }}>
       {/* Top Navigation Bar - Menu Only */}
       <nav style={{
         position: 'fixed',
@@ -348,7 +348,7 @@ const Internship = () => {
       {/* Diary Entry Detail */}
       <section style={{
         padding: '80px 0',
-        background: '#ffffff',
+        background: '#000000',
         minHeight: 'calc(100vh - 70px)'
       }}>
         <div style={{
@@ -367,13 +367,13 @@ const Internship = () => {
                   <h1 style={{
                     fontSize: '42px',
                     fontWeight: 'bold',
-                    color: '#000000',
+                    color: '#ffffff',
                     marginBottom: '20px'
                   }}>
                     {entry.title}
                   </h1>
                   <div style={{
-                    color: '#666',
+                    color: '#999',
                     fontSize: '16px'
                   }}>
                     {new Date(entry.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
@@ -406,7 +406,7 @@ const Internship = () => {
                     <span key={tag} style={{
                       padding: '8px 16px',
                       background: '#f5f5f5',
-                      color: '#666',
+                      color: '#999',
                       borderRadius: '20px',
                       fontSize: '15px',
                       fontWeight: '500',

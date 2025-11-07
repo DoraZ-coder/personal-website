@@ -192,7 +192,7 @@ const Sports = () => {
             </h2>
             <p style={{
               fontSize: '1.2rem',
-              color: '#666',
+              color: '#999',
               maxWidth: '600px',
               margin: '0 auto'
             }}>
@@ -274,7 +274,7 @@ const Sports = () => {
             </h2>
             <p style={{
               fontSize: '1.2rem',
-              color: '#666',
+              color: '#999',
               maxWidth: '600px',
               margin: '0 auto'
             }}>
@@ -327,7 +327,7 @@ const Sports = () => {
                   {achievement.title}
                 </h3>
                 <p style={{
-                  color: '#666',
+                  color: '#999',
                   marginBottom: '15px',
                   fontSize: '0.9rem'
                 }}>
@@ -460,14 +460,14 @@ const Sports = () => {
                         {activity.activity}
                       </h3>
                       <span style={{
-                        color: '#666',
+                        color: '#999',
                         fontSize: '0.9rem'
                       }}>
                         {activity.date}
                       </span>
                     </div>
                     <p style={{
-                      color: '#666',
+                      color: '#999',
                       marginBottom: '15px'
                     }}>
                       {activity.notes}
@@ -476,7 +476,7 @@ const Sports = () => {
                       display: 'flex',
                       gap: '20px',
                       fontSize: '0.9rem',
-                      color: '#666'
+                      color: '#999'
                     }}>
                       <span>⏰ {activity.duration}</span>
                       <span>🔥 {activity.calories} calories</span>
@@ -516,7 +516,7 @@ const Sports = () => {
               <h3 style={{
                 fontSize: '1.5rem',
                 fontWeight: 'bold',
-                color: '#666',
+                color: '#999',
                 marginBottom: '10px'
               }}>
                 No activities found

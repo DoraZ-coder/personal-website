@@ -256,7 +256,7 @@ const Projects = () => {
       {selectedCategory === 'introduction' && (
         <section style={{
           padding: '80px 0',
-          background: '#ffffff',
+          background: '#000000',
           minHeight: 'calc(100vh - 70px)'
         }}>
           <div style={{
@@ -269,7 +269,7 @@ const Projects = () => {
               fontSize: '48px',
               fontWeight: 'bold',
               marginBottom: '40px',
-              color: '#000000',
+              color: '#ffffff',
               textAlign: 'center'
             }}>
               Introduction
@@ -338,7 +338,7 @@ const Projects = () => {
               <h3 style={{
                 fontSize: '28px',
                 fontWeight: 'bold',
-                color: '#000000',
+                color: '#ffffff',
                 marginBottom: '30px',
                 textAlign: 'center'
               }}>
@@ -374,7 +374,7 @@ const Projects = () => {
       {selectedCategory === 'product-design' && (
         <section style={{
           padding: '80px 0',
-          background: '#ffffff',
+          background: '#000000',
           minHeight: 'calc(100vh - 70px)'
         }}>
           <div style={{
@@ -385,7 +385,7 @@ const Projects = () => {
             <h2 style={{
               fontSize: '48px',
               fontWeight: 'bold',
-              color: '#000000',
+              color: '#ffffff',
               marginBottom: '80px',
               textAlign: 'center'
             }}>
@@ -409,7 +409,7 @@ const Projects = () => {
                   <h3 style={{
                     fontSize: '28px',
                     fontWeight: 'bold',
-                    color: '#000000',
+                    color: '#ffffff',
                     marginBottom: '25px'
                   }}>
                     Design Highlights:
@@ -454,7 +454,7 @@ const Projects = () => {
                           <span style={{
                             fontSize: '17px',
                             fontWeight: '600',
-                            color: '#000000'
+                            color: '#ffffff'
                           }}>
                             {highlight.title}：
                           </span>
@@ -546,7 +546,7 @@ const Projects = () => {
               <h3 style={{
                 fontSize: '36px',
                 fontWeight: 'bold',
-                color: '#000000',
+                color: '#ffffff',
                 marginBottom: '50px',
                 textAlign: 'center'
               }}>
@@ -632,14 +632,14 @@ const Projects = () => {
                     <h4 style={{
                       fontSize: '20px',
                       fontWeight: '600',
-                      color: '#000000',
+                      color: '#ffffff',
                       marginBottom: '12px'
                     }}>
                       {feature.title}
                     </h4>
                     <p style={{
                       fontSize: '14px',
-                      color: '#666',
+                      color: '#999',
                       lineHeight: '1.8'
                     }}>
                       {feature.desc}
@@ -656,7 +656,7 @@ const Projects = () => {
       {selectedCategory === 'embedded-design' && (
         <section style={{
           padding: '80px 0',
-          background: '#ffffff',
+          background: '#000000',
           minHeight: 'calc(100vh - 70px)'
         }}>
           <div style={{
@@ -667,7 +667,7 @@ const Projects = () => {
             <h2 style={{
               fontSize: '48px',
               fontWeight: 'bold',
-              color: '#000000',
+              color: '#ffffff',
               marginBottom: '80px',
               textAlign: 'center'
             }}>
@@ -676,7 +676,7 @@ const Projects = () => {
 
             {/* Hardware Components Display */}
             <div style={{
-              background: '#ffffff',
+              background: '#000000',
               position: 'relative',
               minHeight: '700px',
               margin: '0 auto'
@@ -703,7 +703,7 @@ const Projects = () => {
                 <div style={{
                   fontSize: '20px',
                   fontWeight: '700',
-                  color: '#000000'
+                  color: '#ffffff'
                 }}>
                   Arduino Uno
                 </div>
@@ -721,7 +721,7 @@ const Projects = () => {
                   alt="Soil Moisture Sensor"
                   style={{ width: '100px', height: 'auto', marginBottom: '10px' }}
                 />
-                <div style={{ fontSize: '14px', fontWeight: '600', color: '#000000' }}>
+                <div style={{ fontSize: '14px', fontWeight: '600', color: '#ffffff' }}>
                   Soil Moisture Sensor
                 </div>
               </div>
@@ -739,7 +739,7 @@ const Projects = () => {
                   alt="DHT11 Temperature & Humidity"
                   style={{ width: '100px', height: 'auto', marginBottom: '10px' }}
                 />
-                <div style={{ fontSize: '14px', fontWeight: '600', color: '#000000' }}>
+                <div style={{ fontSize: '14px', fontWeight: '600', color: '#ffffff' }}>
                   DHT11 Temp & Humidity
                 </div>
               </div>
@@ -756,7 +756,7 @@ const Projects = () => {
                   alt="GY30 Light Sensor"
                   style={{ width: '100px', height: 'auto', marginBottom: '10px' }}
                 />
-                <div style={{ fontSize: '14px', fontWeight: '600', color: '#000000' }}>
+                <div style={{ fontSize: '14px', fontWeight: '600', color: '#ffffff' }}>
                   GY30 Light Sensor
                 </div>
               </div>
@@ -774,7 +774,7 @@ const Projects = () => {
                   alt="Servo Motor"
                   style={{ width: '100px', height: 'auto', marginBottom: '10px' }}
                 />
-                <div style={{ fontSize: '14px', fontWeight: '600', color: '#000000' }}>
+                <div style={{ fontSize: '14px', fontWeight: '600', color: '#ffffff' }}>
                   Servo Motor
                 </div>
               </div>
@@ -792,7 +792,7 @@ const Projects = () => {
                   alt="Relay"
                   style={{ width: '100px', height: 'auto', marginBottom: '10px' }}
                 />
-                <div style={{ fontSize: '14px', fontWeight: '600', color: '#000000' }}>
+                <div style={{ fontSize: '14px', fontWeight: '600', color: '#ffffff' }}>
                   Relay
                 </div>
               </div>
@@ -809,7 +809,7 @@ const Projects = () => {
                   alt="Buzzer"
                   style={{ width: '100px', height: 'auto', marginBottom: '10px' }}
                 />
-                <div style={{ fontSize: '14px', fontWeight: '600', color: '#000000' }}>
+                <div style={{ fontSize: '14px', fontWeight: '600', color: '#ffffff' }}>
                   Buzzer
                 </div>
               </div>
@@ -827,7 +827,7 @@ const Projects = () => {
                   alt="RGB LED"
                   style={{ width: '100px', height: 'auto', marginBottom: '10px' }}
                 />
-                <div style={{ fontSize: '14px', fontWeight: '600', color: '#000000' }}>
+                <div style={{ fontSize: '14px', fontWeight: '600', color: '#ffffff' }}>
                   RGB LED
                 </div>
               </div>
@@ -844,7 +844,7 @@ const Projects = () => {
                   alt="OLED Display"
                   style={{ width: '100px', height: 'auto', marginBottom: '10px' }}
                 />
-                <div style={{ fontSize: '14px', fontWeight: '600', color: '#000000' }}>
+                <div style={{ fontSize: '14px', fontWeight: '600', color: '#ffffff' }}>
                   OLED Display
                 </div>
               </div>
@@ -878,7 +878,7 @@ const Projects = () => {
       {selectedCategory === 'iteration-plan' && (
         <section style={{
           padding: '80px 0',
-          background: '#ffffff',
+          background: '#000000',
           minHeight: 'calc(100vh - 70px)'
         }}>
           <div style={{
@@ -889,7 +889,7 @@ const Projects = () => {
             <h2 style={{
               fontSize: '48px',
               fontWeight: 'bold',
-              color: '#000000',
+              color: '#ffffff',
               marginBottom: '80px',
               textAlign: 'center'
             }}>
@@ -910,7 +910,7 @@ const Projects = () => {
                   <h3 style={{
                     fontSize: '28px',
                     fontWeight: 'bold',
-                    color: '#000000',
+                    color: '#ffffff',
                     marginBottom: '20px',
                     display: 'flex',
                     alignItems: 'center',
@@ -919,7 +919,7 @@ const Projects = () => {
                     <span style={{
                       fontSize: '24px',
                       fontWeight: 'bold',
-                      color: '#666',
+                      color: '#999',
                       fontFamily: 'monospace'
                     }}>01</span>
                     Appearance
@@ -939,7 +939,7 @@ const Projects = () => {
                   <h3 style={{
                     fontSize: '28px',
                     fontWeight: 'bold',
-                    color: '#000000',
+                    color: '#ffffff',
                     marginBottom: '20px',
                     display: 'flex',
                     alignItems: 'center',
@@ -948,7 +948,7 @@ const Projects = () => {
                     <span style={{
                       fontSize: '24px',
                       fontWeight: 'bold',
-                      color: '#666',
+                      color: '#999',
                       fontFamily: 'monospace'
                     }}>02</span>
                     Hardware
@@ -968,7 +968,7 @@ const Projects = () => {
                   <h3 style={{
                     fontSize: '28px',
                     fontWeight: 'bold',
-                    color: '#000000',
+                    color: '#ffffff',
                     marginBottom: '20px',
                     display: 'flex',
                     alignItems: 'center',
@@ -977,7 +977,7 @@ const Projects = () => {
                     <span style={{
                       fontSize: '24px',
                       fontWeight: 'bold',
-                      color: '#666',
+                      color: '#999',
                       fontFamily: 'monospace'
                     }}>03</span>
                     Software
@@ -1086,8 +1086,8 @@ const Projects = () => {
                         borderRadius: '15px',
                         fontSize: '0.8rem',
                         fontWeight: '600',
-                        background: '#ffffff',
-                        color: '#000'
+                        background: '#000000',
+                        color: '#ffffff'
                       }}>
                         Featured
                       </span>
@@ -1177,8 +1177,8 @@ const Projects = () => {
                       style={{
                         flex: 1,
                         padding: '12px 20px',
-                        background: '#fff',
-                        color: '#000',
+                        background: '#000',
+                        color: '#ffffff',
                         textDecoration: 'none',
                         borderRadius: '10px',
                         textAlign: 'center',

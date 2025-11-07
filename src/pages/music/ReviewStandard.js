@@ -129,8 +129,8 @@ const ReviewStandard = () => {
                   {criterion.title}
                 </h4>
                 <span style={{
-                  background: '#fff',
-                  color: '#000',
+                  background: '#000',
+                  color: '#ffffff',
                   padding: '4px 12px',
                   borderRadius: '12px',
                   fontSize: '0.85rem',

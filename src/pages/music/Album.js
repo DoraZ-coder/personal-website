@@ -161,11 +161,11 @@ const Album = () => {
                   justifyContent: 'space-between',
                   alignItems: 'center',
                   fontSize: '0.9rem',
-                  color: '#666'
+                  color: '#999'
                 }}>
                   <span>{album.year}</span>
                   <span style={{
-                    background: 'rgba(255, 255, 255, 0.1)',
+                    background: 'rgba(0, 0, 0, 0.3)',
                     color: '#fff',
                     padding: '4px 12px',
                     borderRadius: '12px',
