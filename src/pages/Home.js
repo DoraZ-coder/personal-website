@@ -351,7 +351,7 @@ const Home = () => {
               color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
-              I am the girl who once thought she would never have to code again but is now passionately obsessed with programming; the girl who was once afraid to speak her mind in a crowd but is now driven to make a tangible contribution to society; the girl whose mantra used to be "I can't do it," but who now lives by the creed: Self-motivated, Innovative, and Diligent.
+              I am the girl who once believed she would never code again, but has now developed a passionate obsession with programming; the girl who was once hesitant to speak her mind in a crowd but is now driven to make a significant contribution to society; the girl whose mantra used to be "I can't do it," but who now lives by the creed: Self-motivated, Innovative, and Diligent.
             </p>
 
             <p data-scroll-index="2" style={{
@@ -360,7 +360,7 @@ const Home = () => {
               color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
-              Looking back on my three years of high school, I am still amazed at how much the journey has held. I never imagined I could build an Arduino-based self-watering plant system from scratch, that I would secure an internship in a university research lab, or that I would develop, market, and launch a social app into the world.
+              Reflecting on my three years of high school, it continues to astonish me how much I've accomplished. I never imagined I would be capable of building an Arduino-based self-watering plant system from scratch, securing an internship at a university research lab, or developing, marketing, and launching a social app to the public.
             </p>
 
             <p data-scroll-index="3" style={{
@@ -378,7 +378,7 @@ const Home = () => {
               color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
-              He was so right. These wonderful things that have happened to me are no accident. Behind them lies a thirst for knowledge that pushed me to learn, the courage to constantly step outside my comfort zone, the unwavering support of my parents, and the dedication of every teacher who has ever guided me. All these moments, like pieces of a puzzle, have transformed every difficult challenge into a part of my achievements.
+              He was absolutely correct. The wonderful things that have happened to me have not occurred by chance. Driving them is a thirst for knowledge that has motivated me to learn, the courage to continuously venture beyond my comfort zone, the steadfast support of my parents, and the commitment of each teacher who has ever guided me. Each of these moments, like pieces of a puzzle, has turned every challenging difficulty into a part of my accomplishments.
             </p>
 
             <p data-scroll-index="5" style={{
@@ -387,7 +387,7 @@ const Home = () => {
               color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
-              Moving forward, I will continue to hold a deep respect and craving for knowledge, and I eagerly look forward to exploring the unknown in university.
+              In the future, I will maintain a profound respect and a strong desire for knowledge, looking forward to exploring new horizons at university.
             </p>
 
             <p data-scroll-index="6" style={{
@@ -396,7 +396,7 @@ const Home = () => {
               color: 'rgba(255, 255, 255, 0.3)',
               opacity: '0.5'
             }}>
-              I built this website because I wanted to share my imperfect yet genuine journey with you—not just with a simple line about what I've done, but with the real story behind it.
+              I created this website to share my authentic experiences with you, offering not just a brief overview of my achievements, but the complete narrative behind them.
             </p>
 
             <p data-scroll-index="7" style={{
