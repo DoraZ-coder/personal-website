@@ -211,28 +211,28 @@ const Internship = () => {
     }
   ];
 
-  const getMoodColor = (mood) => {
-    switch (mood) {
-      case 'excited': return '#fa709a';
-      case 'challenged': return '#4facfe';
-      case 'inspired': return '#764ba2';
-      case 'accomplished': return '#43e97b';
-      case 'collaborative': return '#667eea';
-      case 'proud': return '#f093fb';
-      default: return '#666';
-    }
-  };
+//  const getMoodColor = (mood) => {
+//    switch (mood) {
+//      case 'excited': return '#fa709a';
+//      case 'challenged': return '#4facfe';
+//      case 'inspired': return '#764ba2';
+//      case 'accomplished': return '#43e97b';
+//      case 'collaborative': return '#667eea';
+//      case 'proud': return '#f093fb';
+//      default: return '#666';
+//    }
+//  };
 
-  const getMoodText = (mood) => {
-    switch (mood) {
-      case 'excited': return 'Excited';
-      case 'challenged': return 'Challenged';
-      case 'inspired': return 'Inspired';
-      case 'accomplished': return 'Accomplished';
-      case 'collaborative': return 'Collaborative';
-      case 'proud': return 'Proud';
-      default: return 'Unknown';
-    }
+//  const getMoodText = (mood) => {
+//    switch (mood) {
+//      case 'excited': return 'Excited';
+//      case 'challenged': return 'Challenged';
+//      case 'inspired': return 'Inspired';
+//      case 'accomplished': return 'Accomplished';
+//      case 'collaborative': return 'Collaborative';
+//      case 'proud': return 'Proud';
+//      default: return 'Unknown';
+//    }
   };
 
   return (
