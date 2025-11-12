@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 const Home = () => {
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState('home');
 
   const sections = [
     { id: 'home', name: 'Home', path: '/', color: '#ffffff' },
@@ -34,7 +33,8 @@ const Home = () => {
     const observerCallback = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          setActiveSection(entry.target.id);
+          // Track active section for potential future use
+          console.log('Active section:', entry.target.id);
         }
       });
     };
@@ -47,6 +47,7 @@ const Home = () => {
     });
 
     return () => observer.disconnect();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Scroll highlight effect for About section

@@ -233,7 +233,7 @@ const Internship = () => {
 //      case 'proud': return 'Proud';
 //      default: return 'Unknown';
 //    }
-  };
+//  };
 
   return (
     <div style={{ minHeight: '100vh', background: '#000000' }}>
