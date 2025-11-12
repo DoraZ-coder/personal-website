@@ -387,7 +387,7 @@ const Internship = () => {
                 <div style={{
                   fontSize: '18px',
                   lineHeight: '2',
-                  color: '#333',
+                  color: '#ffffff',
                   marginBottom: '40px',
                   letterSpacing: '0.3px',
                   whiteSpace: 'pre-line'

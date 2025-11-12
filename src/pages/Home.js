@@ -70,7 +70,7 @@ const Home = () => {
         const threshold = viewportHeight / 8;
 
         if (distanceFromCenter < threshold) {
-          p.style.color = '#000';
+          p.style.color = '#ffffff';
           p.style.opacity = '1';
         } else {
           p.style.color = 'rgba(255, 255, 255, 0.3)';

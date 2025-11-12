@@ -305,7 +305,7 @@ const Projects = () => {
               margin: '0 auto 80px auto'
             }}>
               <div style={{
-                color: '#333',
+                color: '#ffffff',
                 fontSize: '17px',
                 lineHeight: '2',
                 letterSpacing: '0.5px',
@@ -460,7 +460,7 @@ const Projects = () => {
                           </span>
                           <span style={{
                             fontSize: '17px',
-                            color: '#333',
+                            color: '#ffffff',
                             lineHeight: '1.6'
                           }}>
                             {highlight.desc}
@@ -926,7 +926,7 @@ const Projects = () => {
                   </h3>
                   <p style={{
                     fontSize: '17px',
-                    color: '#333',
+                    color: '#ffffff',
                     lineHeight: '1.8',
                     paddingLeft: '36px'
                   }}>
@@ -955,7 +955,7 @@ const Projects = () => {
                   </h3>
                   <p style={{
                     fontSize: '17px',
-                    color: '#333',
+                    color: '#ffffff',
                     lineHeight: '1.8',
                     paddingLeft: '36px'
                   }}>
@@ -984,7 +984,7 @@ const Projects = () => {
                   </h3>
                   <p style={{
                     fontSize: '17px',
-                    color: '#333',
+                    color: '#ffffff',
                     lineHeight: '1.8',
                     paddingLeft: '36px'
                   }}>
