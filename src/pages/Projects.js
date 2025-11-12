@@ -861,12 +861,10 @@ const Projects = () => {
               }}>
                 {/* Lines from components to Arduino center */}
                 <line x1="15%" y1="15%" x2="50%" y2="50%" stroke="#444" strokeWidth="2" strokeDasharray="5,5" />
-                <line x1="50%" y1="10%" x2="50%" y2="45%" stroke="#444" strokeWidth="2" strokeDasharray="5,5" />
                 <line x1="85%" y1="15%" x2="50%" y2="50%" stroke="#444" strokeWidth="2" strokeDasharray="5,5" />
                 <line x1="10%" y1="50%" x2="42%" y2="50%" stroke="#444" strokeWidth="2" strokeDasharray="5,5" />
                 <line x1="90%" y1="50%" x2="58%" y2="50%" stroke="#444" strokeWidth="2" strokeDasharray="5,5" />
                 <line x1="15%" y1="85%" x2="50%" y2="50%" stroke="#444" strokeWidth="2" strokeDasharray="5,5" />
-                <line x1="50%" y1="90%" x2="50%" y2="55%" stroke="#444" strokeWidth="2" strokeDasharray="5,5" />
                 <line x1="85%" y1="85%" x2="50%" y2="50%" stroke="#444" strokeWidth="2" strokeDasharray="5,5" />
               </svg>
             </div>
